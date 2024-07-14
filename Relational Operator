@@ -1,0 +1,24 @@
+package javaprogram;
+
+public class RelationalOpearator {
+
+	public static void main(String[] args) {
+		boolean b;
+		int weight = 45;
+		
+		b = weight > 40;
+		System.out.println(b);
+		
+		
+		boolean c;
+		c = !(weight >45);
+		System.out.println(c);
+		
+		boolean d;
+		d = weight <=45;
+		System.out.println(d);
+		
+
+	}
+
+}
