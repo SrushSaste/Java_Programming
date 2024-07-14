@@ -1,0 +1,29 @@
+package javaprogram;
+import java.util.Arrays;
+public class ArrayOperation {
+
+	public static void main(String[] args) {
+		int marks[]= {4,5,6,7};
+		int marks2[]= {4,5,6,7};
+		
+		// Sorting 
+		Arrays.sort(marks);
+		String mStr = Arrays.toString(marks);
+		System.out.println(mStr);
+		
+		
+		// check if both the arrays are equals
+	    if(Arrays.equals(marks, marks2)) {
+	    	System.out.println("Arrays are equal");
+	    }
+	    
+	    else {
+	    	System.out.println("Arrays are Not equal");
+	    }
+	    
+	    
+	    
+		
+	}
+
+}
