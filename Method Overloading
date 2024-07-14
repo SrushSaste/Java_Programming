@@ -1,0 +1,30 @@
+package javaprogram;
+
+public class MethodOverloading {
+	int a=10;
+	int b=30;
+	
+	void add()
+	{
+		System.out.println(a+b);
+	}
+	
+	void add(int a,int b) {
+		System.out.println(a+b);
+	}
+	
+	void add(String s1 , String s2) {
+		System.out.println(s1+s2);
+	}
+
+	public static void main(String[] args) {
+		MethodOverloading mo =new MethodOverloading();
+		mo.add();
+		MethodOverloading mo1 =new MethodOverloading();
+		mo1.add(3,5);
+		MethodOverloading mo2 =new MethodOverloading();
+		mo2.add("Hey"," Srush");
+
+	}
+
+}
