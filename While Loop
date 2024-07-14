@@ -1,0 +1,28 @@
+package javaprogram;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+	int n =1;  //serially
+		while(n<=10) {
+			System.out.println(n);
+			n =n+1;
+		}
+		
+		int a = 10;  //multiple
+		while(a<=100) {
+			System.out.println(a);
+			a = a+10;
+		}
+		
+		int x = 1234; //sum of all digits 
+		int dSum=0;
+		while(x >0) {
+		dSum = dSum +(x %10);
+		  x  =x /10;
+		}
+		System.out.println(dSum);
+
+	}
+
+}
