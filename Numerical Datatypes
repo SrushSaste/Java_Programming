@@ -1,0 +1,16 @@
+package javaprogram;
+
+public class NumericalDatatypes {
+
+	public static void main(String[] args) {
+		int d1 = 28;
+		long distance = 9876543298L;
+		float _sem = 9.21f;
+		double re = 34.9876543298d;
+		System.out.println(d1);
+		System.out.println(distance);
+		System.out.println(_sem);
+		System.out.println(re);
+	}
+
+}
