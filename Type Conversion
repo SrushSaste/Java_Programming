@@ -1,0 +1,34 @@
+package javaprogram;
+
+public class TypeConversion {
+
+	public static void main(String[] args) {
+		//implicit conversion
+		int a = 5;
+		float b;
+		b = a;
+		System.out.println(b);
+		
+		//Explicit Conversion 
+		
+		int m;
+		float n = 7.8f;
+		m = (int) n;
+		System.out.println(m);
+		
+		int x;
+		char y ='v';  //give ascii value
+		x = (int) y ;
+		System.out.println(x);
+		
+		
+		//to covert string to integer
+		
+	    String sHeight = "45";
+	    int v = Integer.parseInt(sHeight);
+	    System.out.println(v);
+	    
+		
+	}
+
+}
