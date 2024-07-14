@@ -1,0 +1,12 @@
+package javaprogram;
+
+public class TernaryOp {
+
+	public static void main(String[] args) {
+		int n, nHalf;
+		n =5;
+		nHalf =n%2==0 ? n/2 :(n+1)/2;
+		System.out.println(nHalf);
+	}
+
+}
