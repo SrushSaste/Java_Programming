@@ -1,0 +1,11 @@
+package javaprogram;
+
+public class NonStaticTest {
+
+	public static void main(String[] args) {
+		B b1 = new B();
+		System.out.println(b1);
+
+	}
+
+}
