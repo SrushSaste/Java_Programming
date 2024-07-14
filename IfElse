@@ -1,0 +1,19 @@
+package javaprogram;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		//if statement 
+		
+		int age = 20;
+		if(age >=30) {
+			System.out.println("The age of person is major");
+		}
+		else {
+			System.out.println("The age of person is minor");
+		}
+	}
+
+}
+       
+	
