@@ -1,0 +1,29 @@
+package javaprogram;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		char c1 = 'c';
+		char c2 = 'a';
+		char c3 = 'r';
+		System.out.print(c1);
+		System.out.print(c2);
+		System.out.println(c3);
+		
+		String greet = "Good Morning !!";
+		String name = "Srush ";
+		String result;
+		String space = " ";
+		greet = greet.toUpperCase();
+		name = name.toLowerCase();
+		result = greet + space + name;
+		System.out.println(result);
+		
+		
+		
+       String firstName = "john";
+       String lastName = "  Deo";
+       System.out.println(firstName.concat(lastName));
+	}
+
+}
