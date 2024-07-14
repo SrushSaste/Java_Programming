@@ -1,0 +1,38 @@
+package javaprogram;
+
+public class ConstructorOverloading {
+	int id;
+	String name;
+	
+	ConstructorOverloading(){
+		id=0;
+		name=null;	
+	}
+	
+	ConstructorOverloading(String the_name , int the_id){
+		id = the_id;
+		name=the_name;
+	}
+	ConstructorOverloading(int id1,String name){
+		this.id=id1;
+		this.name=name;
+	}
+	
+	void calling() {
+		System.out.println("The is is " +id);
+		System.out.println("The name  is " +name);
+	}
+
+	public static void main(String[] args) {
+		
+		ConstructorOverloading co = new ConstructorOverloading();
+		co.calling();
+		ConstructorOverloading co1 =new ConstructorOverloading("ABC" ,4);
+		co1.calling();
+		ConstructorOverloading co2 = new ConstructorOverloading(3,"XYZ");
+		co2.calling();
+		
+
+	}
+
+}
