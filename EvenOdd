@@ -1,0 +1,23 @@
+package javaprogram;
+
+public class EvenOrOdd {
+
+	public static void main(String[] args) {
+		//Number is even or odd using nested if
+		
+		int a = -6;
+		if(a<0) {
+			System.out.println("Number is negative");
+			}
+		else {
+			if(a%2==0) {
+				System.out.println("Number is even");
+			}
+			else {
+				System.out.println("Number is odd");
+				
+			}
+		}
+	}
+
+}
