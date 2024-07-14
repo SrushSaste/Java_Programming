@@ -1,0 +1,20 @@
+package javaprogram;
+
+public class IfElif {
+
+	public static void main(String[] args) {
+		int testScore = 23;
+		if(testScore<35) {
+			System.out.println("Student failed");
+		}
+		else
+			if((testScore>=35) && (testScore <=90)){
+			System.out.println("Student is pass");
+			
+		}
+		else {
+			System.out.println("Student is pass with distinction");
+		}
+	}
+
+}
