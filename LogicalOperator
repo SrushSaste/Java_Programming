@@ -1,0 +1,15 @@
+package javaprogram;
+
+public class LogicalOperator {
+
+	public static void main(String[] args) {
+		boolean b;
+		int age = 21;
+		int weight = 40;
+		
+		b = age > 20 && weight < 50;
+		System.out.println(b);
+
+	}
+
+}
